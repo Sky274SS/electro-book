@@ -1,0 +1,49 @@
+.plane_menu_container{
+    display: flex;
+    flex-direction: column;
+    width: 1010px;
+    height: 760px;
+}
+.plane_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.plane_menu_block{
+    color: #a2b8a3;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    border: 2px solid #596459;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: .7;
+}
+.plane_menu_block > h1{
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.plane_menu_block:hover{
+    opacity: 1;
+    box-shadow: 0 0 15px #000000;
+    color: #596459;
+}
+
+.plane_img{
+    width: 300px;
+}
+.plane_menu_aerodrom{
+    margin-left: 10px;
+    height: 180px;
+    width: 1000px;
+    cursor: pointer;
+    opacity: .7;
+}
+.plane_menu_aerodrom:hover{
+    opacity: 1;
+    box-shadow: 0 0 25px #596459;
+}
