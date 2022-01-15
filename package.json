@@ -1,6 +1,6 @@
 {
   "name": "electro-book",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "homepage": "./",
   "dependencies": {
@@ -18,7 +18,7 @@
     "url": "https://www.instagram.com/skymirs/"
   },
   "main": "electron/main.js",
-  "productName": "electro-book",
+  "productName": "Безопасность Полетов>",
   "scripts": {
     "start": "export BROWSER=none && react-scripts start",
     "build": "react-scripts build",

@@ -7,7 +7,9 @@ import List from "./pages/List";
 import config from  "./pages/dataBase.json"
 
 function App() {
+
     const [state, setState] = useState({
+        isIntroduction:true,
         isStartWindow: true,
         isMenuWindow: false,
         isAboutUsWindow:false,
@@ -18,6 +20,10 @@ function App() {
         isInfoPage:false,
     })
 
+    if(state.isIntroduction){
+        alert('Для того чтобы начать нажмите на самолет, пора готовиться к взлету! Для информации о проекте нажми на заголовок!')
+        setState({...state, isIntroduction: false})
+    }
     return (
         <div className="App">
             {state.isStartWindow && <StartWindow

@@ -14,7 +14,7 @@ const List = ({data,state,onGoBack}) => {
                 <div className='container'>
             {data.image.map((element, index) => {
                 return (
-                <div key={index}>
+                <div key={index} className="list_container">
                 <img src={element} alt="backgroundImage" className="list_image"
                      onClick={()=>{
                          setIsInfoPage(true)
